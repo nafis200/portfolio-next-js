@@ -6,9 +6,9 @@ import './banner.css'
 
 const Banner = () => {
   return (
-    <div className="mt-5">
+    <div className="mt-1">
       <div 
-       className="hero max-w-[490px]  md:max-w-[540px] lg:max-w-[1540px] mx-auto  rounded-3xl mb-10 bg-no-repeat background-div"
+       className="hero max-w-[490px] rounded-3xl md:max-w-[540px] lg:max-w-[1540px] mx-auto  mb-10 bg-no-repeat background-div"
       >
         <div className="hero-overlay bg-opacity-70 rounded-3xl flex flex-col md:flex-row items-center lg:p-32 md:px-8 px-4 py-8 md:py-2">
           <div className="rounded-3xl w-full md:w-[70%]">
@@ -19,8 +19,7 @@ const Banner = () => {
                 </span>
               </h1>
               <p className="text-[20px] md:text-2xl lg:text-4xl  text-white">
-                Mern-Stack Developer | Competitive Programmer | Undergraduate
-                Student
+                Mern-Stack Developer | Competitive Programmer
               </p>
             </div>
             <div className="text-[20px] md:text-xl lg:text-2xl text-white font-bold"></div>
