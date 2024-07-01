@@ -2,7 +2,7 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import { Link } from "react-scroll";
-
+import './banner.css'
 const Navbar = () => {
   const [theme, setTheme] = useState(
     localStorage.getItem("theme") ? localStorage.getItem("theme") : "light"
@@ -99,7 +99,9 @@ const Navbar = () => {
   );
 
   return (
-     <div className="navbar mt-2 lg:p-6 h-32 bg-black text-white">
+      
+    
+        <div className="navbar mb-5 text-white w-[px] md:w-full bg-black h-28 sticky">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -134,7 +136,10 @@ const Navbar = () => {
       <div className="navbar-end">
         <a className="btn">Button</a>
       </div>
-           </div>
+      </div>
+     
+    
+           
 
   );
 };

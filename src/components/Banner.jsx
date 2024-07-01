@@ -6,7 +6,7 @@ import './banner.css'
 
 const Banner = () => {
   return (
-    <div className="mt-1">
+    <div className="">
       <div 
        className="hero max-w-[490px] rounded-3xl md:max-w-[540px] lg:max-w-[1540px] mx-auto  mb-10 bg-no-repeat background-div"
       >
