@@ -8,10 +8,11 @@ const About = () => {
                 <h2 className="hover:text-blue-600 text-xl text-center md:text-[40px]  font-bold mb-10"> About Me</h2>
                     <div className='text-center'>
                         <p>
-                            Passionate about coding, problem-solving, and creating innovative web solutions.
+                            Passionate about Probelm solving, software enginnering web development, and creating innovative web solutions.
+                            I solve around 800+ problem solve in varrious online judge
                         </p>
                         <p>
-                            I value teamwork, collaboration, and continuous learning. Excited to work on impactful projects, learn from experts, and contribute to technological advancements. Let's collaborate and bring ideas to life through technology!
+                            I make eye caching site.I like help other which i learn.Cooperative with others team members.And Contribute any project by idea.
                         </p>
                     </div>
                 </div>

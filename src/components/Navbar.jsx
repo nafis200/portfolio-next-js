@@ -30,7 +30,7 @@ const Navbar = () => {
   const links = (
     <>
       <li>
-        <Link to="About me" smooth={true} duration={100}>
+        <Link to="Aboutme" smooth={true} duration={100}>
           About Me{" "}
         </Link>
       </li>

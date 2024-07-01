@@ -11,7 +11,9 @@ const Header = () => {
             <Element name="">
              <Banner></Banner>
             </Element>
+            <Element name="Aboutme">
             <About></About>
+            </Element>
         </div>
     );
 };
