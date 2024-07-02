@@ -16,7 +16,7 @@ const Education = () => {
                     <p className="mb-2"><strong>Location:</strong> Jashore, Bangladesh</p>
                 </div>
 
-                <div className="education-category bg-base-100 border-2 border-blue-400 hover:border-cyan-300 p-6 rounded-lg shadow-lg hover:shadow-2xl hover:shadow-cyan-200 transition-shadow duration-300">
+                <div className="bg-base-100 border-2 border-blue-400 hover:border-cyan-300 p-6 hover:shadow-2xl hover:bg-cyan-400 rounded-lg shadow-lg transition-shadow duration-300">
                     <FaSchool className='' />
                     <h4 className="text-xl font-bold mb-2">Tamirul millat College, Dhaka</h4>
                     <p className="mb-2"><strong>Group:</strong> Science</p>
