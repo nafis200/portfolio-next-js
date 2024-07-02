@@ -133,9 +133,6 @@ const Navbar = () => {
             {links}
         </ul>
       </div>
-      <div className="navbar-end">
-        <a className="btn btn-outline bg-white">Resume</a>
-      </div>
       </div>
      
     
